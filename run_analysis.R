@@ -97,14 +97,14 @@ humanActivityCols <- colnames(humanActivity)
 humanActivityCols <- gsub("[\\(\\)-]", "", humanActivityCols)
 
 # expand abbreviations and clean up names
-humanActivityCols <- gsub("^f", "frequencyDomain", humanActivityCols)
-humanActivityCols <- gsub("^t", "timeDomain", humanActivityCols)
+humanActivityCols <- gsub("^f", "frequency", humanActivityCols)
+humanActivityCols <- gsub("^t", "time", humanActivityCols)
 humanActivityCols <- gsub("Acc", "Accelerometer", humanActivityCols)
 humanActivityCols <- gsub("Gyro", "Gyroscope", humanActivityCols)
 humanActivityCols <- gsub("Mag", "Magnitude", humanActivityCols)
 humanActivityCols <- gsub("Freq", "Frequency", humanActivityCols)
 humanActivityCols <- gsub("mean", "Mean", humanActivityCols)
-humanActivityCols <- gsub("std", "StandardDeviation", humanActivityCols)
+humanActivityCols <- gsub("std", "StandardDev", humanActivityCols)
 
 # correct typo
 humanActivityCols <- gsub("BodyBody", "Body", humanActivityCols)
