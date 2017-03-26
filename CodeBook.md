@@ -63,9 +63,9 @@ Avg. time of body acceleration in the X, Y and Z directions:
 
 Std. deviation of the time of body acceleration in the X, Y and Z directions:
 
-            + timeBodyAccelerometerStandardDeviationX
-            + timeBodyAccelerometerStandardDeviationY
-            + timeBodyAccelerometerStandardDeviationZ
+            + timeBodyAccelerometerStandardDevX
+            + timeBodyAccelerometerStandardDevY
+            + timeBodyAccelerometerStandardDevZ
 
 Avg. time of gravity acceleration in the X, Y and Z directions:
 
@@ -75,9 +75,9 @@ Avg. time of gravity acceleration in the X, Y and Z directions:
 
 Std. deviation of time of gravity acceleration in the X, Y and Z directions:
 
-            + timeGravityAccelerometerStandardDeviationX
-            + timeGravityAccelerometerStandardDeviationY
-            + timeGravityAccelerometerStandardDeviationZ
+            + timeGravityAccelerometerStandardDevX
+            + timeGravityAccelerometerStandardDevY
+            + timeGravityAccelerometerStandardDevZ
 
 Avg. body acceleration jerk (derivation of the acceleration in time) in the X, Y and Z directions:
 
@@ -87,9 +87,9 @@ Avg. body acceleration jerk (derivation of the acceleration in time) in the X, Y
 
 Std. deviation of body acceleration jerk (derivation of the acceleration in time) in the X, Y and Z directions:
 
-            + timeBodyAccelerometerJerkStandardDeviationX
-            + timeBodyAccelerometerJerkStandardDeviationY
-            + timeBodyAccelerometerJerkStandardDeviationZ
+            + timeBodyAccelerometerJerkStandardDevX
+            + timeBodyAccelerometerJerkStandardDevY
+            + timeBodyAccelerometerJerkStandardDevZ
 
 Avg. body angular velocity in the X, Y and Z directions:
 
@@ -99,9 +99,9 @@ Avg. body angular velocity in the X, Y and Z directions:
 
 Std. deviation of body angular velocity in the X, Y and Z directions:
 
-            + timeBodyGyroscopeStandardDeviationX
-            + timeBodyGyroscopeStandardDeviationY
-            + timeBodyGyroscopeStandardDeviationZ
+            + timeBodyGyroscopeStandardDevX
+            + timeBodyGyroscopeStandardDevY
+            + timeBodyGyroscopeStandardDevZ
 
 Avg. body angular velocity jerk (derivation of the angular velocity in time) in the X, Y and Z directions:
 
@@ -111,34 +111,34 @@ Avg. body angular velocity jerk (derivation of the angular velocity in time) in 
 
 Std. deviation of body angular velocity jerk (derivation of the angular velocity in time) in the X, Y and Z directions:
 
-            + timeBodyGyroscopeJerkStandardDeviationX
-            + timeBodyGyroscopeJerkStandardDeviationY
-            + timeBodyGyroscopeJerkStandardDeviationZ
+            + timeBodyGyroscopeJerkStandardDevX
+            + timeBodyGyroscopeJerkStandardDevY
+            + timeBodyGyroscopeJerkStandardDevZ
 
 Avg. & std. deviation of magnitude of body acceleration:
 
             + timeBodyAccelerometerMagnitudeMean
-            + timeBodyAccelerometerMagnitudeStandardDeviation
+            + timeBodyAccelerometerMagnitudeStandardDev
 
 Avg. & std. deviation of magnitude of gravity acceleration:
 
             + timeGravityAccelerometerMagnitudeMean
-            + timeGravityAccelerometerMagnitudeStandardDeviation
+            + timeGravityAccelerometerMagnitudeStandardDev
 
 Avg. & std. deviation of magnitude of body acceleration jerk (derivation of the acceleration in time):
 
             + timeBodyAccelerometerJerkMagnitudeMean
-            + timeBodyAccelerometerJerkMagnitudeStandardDeviation
+            + timeBodyAccelerometerJerkMagnitudeStandardDev
 
 Avg. & std. deviation of magnitude of body angular velocity:
 
             + timeBodyGyroscopeMagnitudeMean
-            + timeBodyGyroscopeMagnitudeStandardDeviation
+            + timeBodyGyroscopeMagnitudeStandardDev
 
 Avg. & std. deviation of magnitude of body angular velocity jerk (derivation of the angular velocity in time):
 
             + timeBodyGyroscopeJerkMagnitudeMean
-            + timeBodyGyroscopeJerkMagnitudeStandardDeviation
+            + timeBodyGyroscopeJerkMagnitudeStandardDev
 
 ## Frequency Measurements
 
@@ -150,9 +150,9 @@ Avg. frequency of body acceleration in the X, Y and Z directions:
 
 Std. deviation of frequency of body acceleration in the X, Y and Z directions:
 
-            + frequencyBodyAccelerometerStandardDeviationX
-            + frequencyBodyAccelerometerStandardDeviationY
-            + frequencyBodyAccelerometerStandardDeviationZ
+            + frequencyBodyAccelerometerStandardDevX
+            + frequencyBodyAccelerometerStandardDevY
+            + frequencyBodyAccelerometerStandardDevZ
 
 Weighted avg. of frequency components of body acceleration in the X, Y and Z directions:
 
@@ -168,9 +168,9 @@ Avg. frequency of body acceleration jerk (derivation of the acceleration in time
 
 Std. deviation of the frequency of body acceleration jerk (derivation of the acceleration in time) in the X, Y and Z directions:
 
-            + frequencyBodyAccelerometerJerkStandardDeviationX
-            + frequencyBodyAccelerometerJerkStandardDeviationY
-            + frequencyBodyAccelerometerJerkStandardDeviationZ
+            + frequencyBodyAccelerometerJerkStandardDevX
+            + frequencyBodyAccelerometerJerkStandardDevY
+            + frequencyBodyAccelerometerJerkStandardDevZ
 
 Weighted avg. of the frequency components of body acceleration jerk (derivation of the acceleration in time) in the X, Y and Z directions:
 
@@ -186,9 +186,9 @@ Avg. frequency-domain body angular velocity in the X, Y and Z directions:
 
 Std. deviation of the frequency of body angular velocity in the X, Y and Z directions:
 
-            + frequencyBodyGyroscopeStandardDeviationX
-            + frequencyBodyGyroscopeStandardDeviationY
-            + frequencyBodyGyroscopeStandardDeviationZ
+            + frequencyBodyGyroscopeStandardDevX
+            + frequencyBodyGyroscopeStandardDevY
+            + frequencyBodyGyroscopeStandardDevZ
 
 Weighted avg. of the frequency components of body angular velocity in the X, Y and Z directions:
 
@@ -199,25 +199,25 @@ Weighted avg. of the frequency components of body angular velocity in the X, Y a
 Avg., std. deviation, and weighted avg. of the frequency components of magnitude of body acceleration:
 
             + frequencyBodyAccelerometerMagnitudeMean
-            + frequencyBodyAccelerometerMagnitudeStandardDeviation
+            + frequencyBodyAccelerometerMagnitudeStandardDev
             + frequencyBodyAccelerometerMagnitudeMeanFrequency
 
 Avg., std. deviation, and weighted avg. of the frequency components of magnitude of body acceleration jerk (derivation of the acceleration in time):
 
             + frequencyBodyAccelerometerJerkMagnitudeMean
-            + frequencyBodyAccelerometerJerkMagnitudeStandardDeviation
+            + frequencyBodyAccelerometerJerkMagnitudeStandardDev
             + frequencyBodyAccelerometerJerkMagnitudeMeanFrequency
 
 Avg., std. deviation, and weighted avg. of the frequency components of magnitude of body angular velocity:
 
             + frequencyBodyGyroscopeMagnitudeMean
-            + frequencyBodyGyroscopeMagnitudeStandardDeviation
+            + frequencyBodyGyroscopeMagnitudeStandardDev
             + frequencyBodyGyroscopeMagnitudeMeanFrequency
 
 Avg., std. deviation, and weighted avg. of the frequency components of magnitude of body angular velocity jerk (derivation of the angular velocity in time):
 
             + frequencyBodyGyroscopeJerkMagnitudeMean
-            + frequencyBodyGyroscopeJerkMagnitudeStandardDeviation
+            + frequencyBodyGyroscopeJerkMagnitudeStandardDev
             + frequencyBodyGyroscopeJerkMagnitudeMeanFrequency
 
 # PROCEDURES APPLIED TO THE SOURCE DATA
@@ -236,7 +236,7 @@ The following procedures have been applied to the original source data:
       + Special characters (i.e. (, ), and -) were removed
       + The initial f and t were expanded to frequency and time respectively.
       + Acc, Gyro, Mag, Freq, mean, and std were replaced with Accelerometer, Gyroscope, Magnitude, Frequency, Mean, and 
-        StandardDeviation respectively.
+        StandardDev respectively.
         
 From the data set in step 4, the final data set was created with the average of each variable for each activity and each subject.
 The procedures as outlined were generated by the run_analysis.R R script.
